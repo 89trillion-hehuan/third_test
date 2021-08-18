@@ -24,7 +24,7 @@ MyInfo包括MyRankImage（自己的排名图片）、MyAvatar（自己的头像�
 | GameController        | 控制排行榜显示与关闭                 | 无                                                           |
 | PopupWindowController | 显示弹窗的显示与关闭                 | 无                                                           |
 | RankItemView  | 初始化排行榜每个玩家信息             | 被BasicListAdapter类调用                                     |
-| BasicListAdapter      | OSA插件类，用于排行榜数据显示与刷新  | 调用MyListItemViewsHolder类、JsonReader类和RankItemController类 |
+| BasicListAdapter      | OSA插件类，用于排行榜数据显示与刷新  | 调用MyListItemViewsHolder类、JsonReader类和RankItemView类 |
 
 
 ### 4.流程图
